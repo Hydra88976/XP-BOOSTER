@@ -3,7 +3,7 @@ name: Run 4 Python Scripts Hourly
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'  # Runs at the top of every hour (UTC)
+    - cron: '20 * * * *'  # Runs at the top of every hour (UTC)
 
 jobs:
   run-scripts:
